@@ -1,0 +1,27 @@
+{
+  "name": "xible-np-sentiment",
+  "version": "0.1.0",
+  "description": "A sentiment node for XIBLE.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steve2507/xible-np-sentiment"
+  },
+  "bugs": {
+    "url": "https://github.com/steve2507/xible-np-sentiment/issues"
+  },
+  "keywords": [
+    "xible",
+    "sentiment",
+    "AFINN-165",
+    "emoji",
+    "analysis",
+    "nodepack"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm shrinkwrap --only=prod"
+  },
+  "dependencies": {
+    "sentiment": "*"
+  }
+}

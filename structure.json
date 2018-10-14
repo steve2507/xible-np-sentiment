@@ -1,0 +1,19 @@
+{
+  "name": "sentiment",
+  "type": "object",
+  "description": "Performs sentiment analysis on the input string(s) and returns the corresponding sentiment score. Uses the AFINN-165 wordlist and emoji sentiment ranking to do so.",
+  "inputs": {
+    "strings": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "score": {
+      "type": "math.number"
+    },
+    "comparative": {
+      "type": "math.number",
+      "description": "The comparative score is simply: sum of each token / number of tokens."
+    }
+  }
+}
